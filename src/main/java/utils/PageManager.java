@@ -1,6 +1,7 @@
 package utils;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -65,6 +66,26 @@ public abstract class PageManager {
     protected void click(By by) {
         this.waitForVisibility(by);
         this.getWebElement(by).click();
+    }
+
+    protected void scrollToElementAndClick(WebElement element) {
+        this.scrollToElement(element);
+        this.click(element);
+    }
+
+    protected void scrollToElementAndClick(By by) {
+        this.scrollToElement(by);
+        this.click(by);
+    }
+
+    protected void scrollToElement(WebElement element){
+        String script = "arguments[0].scrollIntoView();";
+        ((JavascriptExecutor)this.driver).executeScript(script, element);
+    }
+
+    protected void scrollToElement(By by){
+        String script = "arguments[0].scrollIntoView();";
+        ((JavascriptExecutor)this.driver).executeScript(script, this.getWebElement(by));
     }
 
     protected String getWebElementText(WebElement element) {

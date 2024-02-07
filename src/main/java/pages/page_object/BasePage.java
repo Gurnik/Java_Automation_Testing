@@ -81,107 +81,107 @@ public abstract class BasePage extends PageManager {
     }
 
     public HomePage clickHomePage() {
-        this.click(this.homePageLocator);
+        this.scrollToElementAndClick(this.homePageLocator);
         return new HomePage(this.getWebDriver());
     }
 
     public AccordionPage clickAccordionPage() {
-        this.click(this.accordionPageLocator);
+        this.scrollToElementAndClick(this.accordionPageLocator);
         return new AccordionPage(this.getWebDriver());
     }
 
     public ActionsPage clickActionsPage() {
-        this.click(this.actionsPageLocator);
+        this.scrollToElementAndClick(this.actionsPageLocator);
         return new ActionsPage(this.getWebDriver());
     }
 
     public BrowserTabsPage clickBrowserTabsPage() {
-        this.click(this.browserTabPageLocator);
+        this.scrollToElementAndClick(this.browserTabPageLocator);
         return new BrowserTabsPage(this.getWebDriver());
     }
 
     public ButtonsPage clickButtonsPage() {
-        this.click(this.buttonsPageLocator);
+        this.scrollToElementAndClick(this.buttonsPageLocator);
         return new ButtonsPage(this.getWebDriver());
     }
 
     public CalculatorJSPage clickCalculatorJSPage() {
-        this.click(this.calculatorJSPageLocator);
+        this.scrollToElementAndClick(this.calculatorJSPageLocator);
         return new CalculatorJSPage(this.getWebDriver());
     }
 
     public ContactUsFormTestPage clickContactUsFormTestPage() {
-        this.click(this.contactUsFormPageLocator);
+        this.scrollToElementAndClick(this.contactUsFormPageLocator);
         return new ContactUsFormTestPage(this.getWebDriver());
     }
 
     public DatePickerPage clickDatePickerPage() {
-        this.click(this.datePickerPageLocator);
+        this.scrollToElementAndClick(this.datePickerPageLocator);
         return new DatePickerPage(this.getWebDriver());
     }
 
     public DropDownCheckboxRadioPage clickDropDownCheckboxRadioPage() {
-        this.click(this.dropDownCheckboxRadioPageLocator);
+        this.scrollToElementAndClick(this.dropDownCheckboxRadioPageLocator);
         return new DropDownCheckboxRadioPage(this.getWebDriver());
     }
 
     public FileUploadPage clickFileUploadPage() {
-        this.click(this.fileUploadPageLocator);
+        this.scrollToElementAndClick(this.fileUploadPageLocator);
         return new FileUploadPage(this.getWebDriver());
     }
 
     public HiddenElementsPage clickHiddenElementsPage() {
-        this.click(this.hiddenElementsPageLocator);
+        this.scrollToElementAndClick(this.hiddenElementsPageLocator);
         return new HiddenElementsPage(this.getWebDriver());
     }
 
     public IFramesPage clickIFramesPage() {
-        this.click(this.iFramesPageLocator);
+        this.scrollToElementAndClick(this.iFramesPageLocator);
         return new IFramesPage(this.getWebDriver());
     }
 
     public LoaderPage clickLoaderPage() {
-        this.click(this.loaderPageLocator);
+        this.scrollToElementAndClick(this.loaderPageLocator);
         return new LoaderPage(this.getWebDriver());
     }
 
     public LoaderTwoPage clickLoaderTwoPage() {
-        this.click(this.loaderTwoPageLocator);
+        this.scrollToElementAndClick(this.loaderTwoPageLocator);
         return new LoaderTwoPage(this.getWebDriver());
     }
 
     public LoginPortalTestPage clickLoginPortalTestPage() {
-        this.click(this.loginPortalTestPageLocator);
+        this.scrollToElementAndClick(this.loginPortalTestPageLocator);
         return new LoginPortalTestPage(this.getWebDriver());
     }
 
     public MouseMovementPage clickMouseMovementPage() {
-        this.click(this.mouseMovementPageLocator);
+        this.scrollToElementAndClick(this.mouseMovementPageLocator);
         return new MouseMovementPage(this.getWebDriver());
     }
 
     public PopUpsAndAlertsPage clickPopUpsAndAlertsPage() {
-        this.click(this.popUpsAndAlertsPageLocator);
+        this.scrollToElementAndClick(this.popUpsAndAlertsPageLocator);
         return new PopUpsAndAlertsPage(this.getWebDriver());
     }
 
     public PredictiveSearchPage clickPredictiveSearchPage() {
-        this.click(this.predictiveSearchPageLocator);
+        this.scrollToElementAndClick(this.predictiveSearchPageLocator);
         return new PredictiveSearchPage(this.getWebDriver());
     }
 
     public TablesPage clickTablesPage() {
-        this.click(this.tablesPageLocator);
+        this.scrollToElementAndClick(this.tablesPageLocator);
         return new TablesPage(this.getWebDriver());
     }
 
     public TestStorePage clickTestStorePage() {
-        this.click(this.testStorePageLocator);
+        this.scrollToElementAndClick(this.testStorePageLocator);
         return new TestStorePage(this.getWebDriver());
     }
 
     public AboutMePage clickAboutMePage() {
-        this.click(this.aboutMePageLocator);
+        this.scrollToElementAndClick(this.aboutMePageLocator);
         return new AboutMePage(this.getWebDriver());
     }
 }

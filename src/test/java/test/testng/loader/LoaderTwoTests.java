@@ -3,6 +3,7 @@ package test.testng.loader;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.page_object.LoaderTwoPage;
+import test.testng.base.BaseData;
 import test.testng.base.BaseTests;
 
 public class LoaderTwoTests extends BaseTests {
@@ -25,7 +26,7 @@ public class LoaderTwoTests extends BaseTests {
         this.testBasePageToggleMenuListIsWorking(loaderTwoPage);
     }
 
-    @Test(dataProviderClass = BaseTests.class, dataProvider = "provideMenuListTitles")
+    @Test(dataProviderClass = BaseData.class, dataProvider = "provideMenuListTitles")
     public void testLoaderTwoPageMenuTitlesAreCorrectAndOrderedAlphabetically(String expected, int index) {
         LoaderTwoPage loaderTwoPage = this.homePage.clickLoaderTwoPage();
         Assert.assertEquals(loaderTwoPage.getMenuTitle(index), expected);

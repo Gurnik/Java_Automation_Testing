@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f97a0a9-82a3-40e6-96f8-fa6a35c3f835" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_factory/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/AboutMePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/AccordionPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/ActionsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/BrowserTabsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/ButtonsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/CalculatorJSPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/ContactUsFormTestPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/DatePickerPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/DropDownCheckboxRadioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/FileUploadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/HiddenElementsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/IFramesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/LoaderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/LoaderTwoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/LoginPortalTestPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/MouseMovementPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/PopUpsAndAlertsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/PredictiveSearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/TablesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/TestStorePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/PageManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/WindowManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/about_me/AboutMeTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/accordion/AccordionTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/actions/ActionsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/base/BaseData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/base/BaseTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/browser_tabs/BrowserTabsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/buttons/ButtonsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/calculator/CalculatorJSTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/contact_us/ContactUsFormTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/date_picker/DatePickerTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/dropdown_checkbox_radio/DropdownCheckboxRadioTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/file_upload/FileUploadTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/hidden_elements/HiddenElementsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/home/HomeTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/iframes/IFramesTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/loader/LoaderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/loader/LoaderTwoTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/login_portal/LoginPortalTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/mouse_movement/MouseMovementTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/popus_and_alerts/PopUpsAndAlertsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/predictive_search/PredictiveSearchTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/tables/TablesTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/test_store/TestStoreTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2bwSMmJsuo3MpwnQGvqxb2blkuY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pages.page_factory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.LoaderTwoTests">
+    <configuration name="HomeTests.testHomePageContent" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testng.home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.testng.home" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.home.HomeTests" />
+      <option name="METHOD_NAME" value="testHomePageContent" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IFramesTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testng.iframes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.testng.iframes" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.iframes.IFramesTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IFramesTests.testIFramePageContent" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testng.iframes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.testng.iframes" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.iframes.IFramesTests" />
+      <option name="METHOD_NAME" value="testIFramePageContent" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoaderTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testng.loader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.testng.loader" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.loader.LoaderTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoaderTwoTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testng.loader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.testng.loader" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.loader.LoaderTwoTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.LoaderTwoTests" />
+        <item itemvalue="TestNG.LoaderTests" />
+        <item itemvalue="TestNG.IFramesTests.testIFramePageContent" />
+        <item itemvalue="TestNG.IFramesTests" />
+        <item itemvalue="TestNG.HomeTests.testHomePageContent" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f97a0a9-82a3-40e6-96f8-fa6a35c3f835" name="Changes" comment="" />
+      <created>1707124605805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707124605805</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="this.homePage.getMenuSize()" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

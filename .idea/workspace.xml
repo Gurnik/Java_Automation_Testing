@@ -5,29 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f97a0a9-82a3-40e6-96f8-fa6a35c3f835" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/home/HomeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/buttons/ButtonsData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/page_object/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/page_object/BrowserTabsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/BrowserTabsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/page_object/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/WindowManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/WindowManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/accordion/AccordionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/accordion/AccordionTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/actions/ActionsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/actions/ActionsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/browser_tabs/BrowserTabsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/browser_tabs/BrowserTabsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/page_object/ButtonsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/ButtonsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PageManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/buttons/ButtonsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/buttons/ButtonsTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/calculator/CalculatorJSTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/calculator/CalculatorJSTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/contact_us/ContactUsFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/contact_us/ContactUsFormTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/date_picker/DatePickerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/date_picker/DatePickerTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/dropdown_checkbox_radio/DropdownCheckboxRadioTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/dropdown_checkbox_radio/DropdownCheckboxRadioTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/file_upload/FileUploadTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/file_upload/FileUploadTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/home/HomeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/home/HomeTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/loader/LoaderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/loader/LoaderTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/loader/LoaderTwoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/loader/LoaderTwoTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/login_portal/LoginPortalTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/login_portal/LoginPortalTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/mouse_movement/MouseMovementTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/mouse_movement/MouseMovementTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/predictive_search/PredictiveSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/predictive_search/PredictiveSearchTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/tables/TablesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/tables/TablesTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +51,7 @@
       <recent name="pages.page_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BrowserTabsTests.testOpenTab">
+  <component name="RunManager" selected="TestNG.ButtonsTests.testButtonIsEnabled">
     <configuration name="BrowserTabsTests.testBrowserTabsPageContent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_testing" />
       <extension name="coverage">
@@ -106,17 +88,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ButtonsTests.testButtonIsEnabled" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.testng.home.*" />
+          <option name="PATTERN" value="test.testng.buttons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.testng.home" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.home.HomeTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="test.testng.buttons" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.buttons.ButtonsTests" />
+      <option name="METHOD_NAME" value="testButtonIsEnabled" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ButtonsTests.testButtonPageContent" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testng.buttons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.testng.buttons" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.buttons.ButtonsTests" />
+      <option name="METHOD_NAME" value="testButtonPageContent" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,31 +142,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeTests.testHomePageContent" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation_testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.testng.home.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.testng.home" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.home.HomeTests" />
-      <option name="METHOD_NAME" value="testHomePageContent" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ButtonsTests.testButtonIsEnabled" />
+        <item itemvalue="TestNG.ButtonsTests.testButtonPageContent" />
         <item itemvalue="TestNG.BrowserTabsTests.testOpenTab" />
         <item itemvalue="TestNG.BrowserTabsTests.testBrowserTabsPageContent" />
         <item itemvalue="TestNG.HomeTests.testGoToWebDriverUniversityWebsite" />
-        <item itemvalue="TestNG.HomeTests" />
-        <item itemvalue="TestNG.HomeTests.testHomePageContent" />
       </list>
     </recent_temporary>
   </component>

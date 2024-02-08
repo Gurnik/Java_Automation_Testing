@@ -8,6 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.List;
 
 public abstract class PageManager {
 
@@ -26,6 +27,10 @@ public abstract class PageManager {
     }
     protected WebElement getWebElement(By by) {
         return this.driver.findElement(by);
+    }
+
+    protected List<WebElement> getWebElements(By by) {
+        return this.driver.findElements(by);
     }
 
     protected int getElementsSize(By by) {
@@ -96,6 +101,16 @@ public abstract class PageManager {
     protected String getWebElementText(By by) {
         this.waitForVisibility(by);
         return getWebElement(by).getText();
+    }
+
+    protected boolean isEnabled(By by) {
+        this.waitForVisibility(by);
+        return this.getWebElement(by).isEnabled();
+    }
+
+    protected boolean isEnabled(WebElement element) {
+        this.waitForVisibility(element);
+        return element.isEnabled();
     }
 
     protected boolean isElementVisible(WebElement element) {

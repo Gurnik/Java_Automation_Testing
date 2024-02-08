@@ -49,6 +49,8 @@ public class ContactUsFormTests extends BaseTests {
     public void testContactUsFormTestPageContent() {
         ContactUsFormTestPage contactUsFormPage = this.homePage.clickContactUsFormTestPage();
         this.softAssert.assertEquals(contactUsFormPage.getPageTestTitleText(), "Contact Form Test");
+        this.softAssert.assertEquals(contactUsFormPage.getPageTestDescriptionText(), "Use this contact us" +
+                " form to practise form input combinations (all fields are mandatory):");
         // TODO - Continue to add rest of content tests
         this.softAssert.assertAll();
     }

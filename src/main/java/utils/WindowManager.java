@@ -40,4 +40,33 @@ public class WindowManager {
     public void goTo(String url) {
         this.navigate.to(url);
     }
+
+    public void switchToTab(String tabTitle) {
+        var windows = this.driver.getWindowHandles();
+
+        for(String window : windows) {
+            this.driver.switchTo().window(window);
+
+            if(tabTitle.equals(this.driver.getTitle())) {
+                break;
+            }
+        }
+    }
+
+    public int getNumberOfTabs() {
+        return this.driver.getWindowHandles().size();
+    }
+
+    public void closeTab(String tabTitle) {
+        var windows = this.driver.getWindowHandles();
+
+        for(String window : windows) {
+            this.driver.switchTo().window(window);
+
+            if(tabTitle.equals(this.driver.getTitle())) {
+                this.driver.close();
+                break;
+            }
+        }
+    }
 }

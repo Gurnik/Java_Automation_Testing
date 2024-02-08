@@ -49,6 +49,8 @@ public class CalculatorJSTests extends BaseTests {
     public void testCalculatorJSPageContent() {
         CalculatorJSPage calculatorJSPage = this.homePage.clickCalculatorJSPage();
         this.softAssert.assertEquals(calculatorJSPage.getPageTestTitleText(), "Calculator using JavaScript");
+        this.softAssert.assertEquals(calculatorJSPage.getPageTestDescriptionText(), "The following" +
+                " calculator is written using JavaScript:");
         // TODO - Continue to add rest of content tests
         this.softAssert.assertAll();
     }

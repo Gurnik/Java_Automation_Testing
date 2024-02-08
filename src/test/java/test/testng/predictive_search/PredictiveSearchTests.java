@@ -50,6 +50,8 @@ public class PredictiveSearchTests extends BaseTests {
         PredictiveSearchPage predictiveSearchPage = this.homePage.clickPredictiveSearchPage();
         this.softAssert.assertEquals(predictiveSearchPage.getPageTestTitleText(),
                 "Predictive Text Search");
+        this.softAssert.assertEquals(predictiveSearchPage.getPageTestDescriptionText(), "How to search for" +
+                " a value from a list and return the value when a match is found.");
         // TODO - Continue to add rest of content tests
         this.softAssert.assertAll();
     }

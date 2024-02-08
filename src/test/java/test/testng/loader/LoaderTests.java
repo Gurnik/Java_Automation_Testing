@@ -50,7 +50,8 @@ public class LoaderTests extends BaseTests {
         LoaderPage loaderPage = this.homePage.clickLoaderPage();
         this.softAssert.assertEquals(loaderPage.getPageTestTitleText(),
                 "Loader");
-        // TODO - Continue to add rest of content tests
+        this.softAssert.assertEquals(loaderPage.getPageTestDescriptionText(), "Use this webpage by waiting" +
+                " for an element to appear after to loader completes (wait 5 seconds).");
         this.softAssert.assertAll();
     }
 

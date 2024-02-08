@@ -40,7 +40,7 @@ public class AccordionTests extends BaseTests {
     }
 
     @Test(dataProviderClass = BaseData.class, dataProvider = "provideMenuListTitles")
-    public void testAccordionPageMenuTitlesAreCorrectAndOrderedAlphabetically(String expected, int index) {
+    public void testAccordionPageMenuTitlesAreCorrectAndOrdered(String expected, int index) {
         AccordionPage accordionPage = this.homePage.clickAccordionPage();
         Assert.assertEquals(accordionPage.getMenuTitle(index), expected);
     }
@@ -62,7 +62,8 @@ public class AccordionTests extends BaseTests {
     public void testAccordionPageContent() {
         AccordionPage accordionPage = this.homePage.clickAccordionPage();
         this.softAssert.assertEquals(accordionPage.getPageTestTitleText(), "Accordion Test");
-        // TODO - Continue to add rest of content tests
+        this.softAssert.assertEquals(accordionPage.getPageTestDescriptionText(),
+                "Use this accordion test page to practise interacting with accordions.");
         this.softAssert.assertAll();
     }
 

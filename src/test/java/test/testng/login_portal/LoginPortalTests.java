@@ -48,9 +48,11 @@ public class LoginPortalTests extends BaseTests {
 
     @Test
     public void testLoginPortalTestPageContent() {
-        LoaderTwoPage loaderTwoPage = this.homePage.clickLoaderTwoPage();
-        this.softAssert.assertEquals(loaderTwoPage.getPageTestTitleText(),
-                "Loader Two");
+        LoginPortalTestPage loginPortalTestPage = this.homePage.clickLoginPortalTestPage();
+        this.softAssert.assertEquals(loginPortalTestPage.getPageTestTitleText(),
+                "Login Portal Test");
+        this.softAssert.assertEquals(loginPortalTestPage.getPageTestDescriptionText(), "The successful" +
+                " login information is username = 'test' password = 'test123'.");
         // TODO - Continue to add rest of content tests
         this.softAssert.assertAll();
     }

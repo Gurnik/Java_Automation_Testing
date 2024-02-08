@@ -50,6 +50,9 @@ public class DropdownCheckboxRadioTests extends BaseTests {
         DropDownCheckboxRadioPage dropDownCheckboxRadioPage = this.homePage.clickDropDownCheckboxRadioPage();
         this.softAssert.assertEquals(dropDownCheckboxRadioPage.getPageTestTitleText(),
                 "Dropdown Menus, Radio Buttons & Checkboxes");
+        this.softAssert.assertEquals(dropDownCheckboxRadioPage.getPageTestDescriptionText(), "Use this" +
+                " webpage to interact with dropdown menus, radio buttons and checboxes. Try to instruct your" +
+                " Selenium tests to interact with these elements.");
         // TODO - Continue to add rest of content tests
         this.softAssert.assertAll();
     }

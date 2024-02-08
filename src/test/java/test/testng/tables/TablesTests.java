@@ -1,5 +1,6 @@
 package test.testng.tables;
 
+import org.junit.jupiter.api.Tag;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.page_object.TablesPage;
@@ -33,6 +34,7 @@ public class TablesTests extends BaseTests {
     }
 
     @Test
+    @Tag("Bug")
     public void testTablesPageTitle() {
         this.homePage.clickTablesPage();
         Assert.assertEquals(this.getWindowManager().getPageTitle(), "Tables");
@@ -50,6 +52,9 @@ public class TablesTests extends BaseTests {
         TablesPage tablesPage = this.homePage.clickTablesPage();
         this.softAssert.assertEquals(tablesPage.getPageTestTitleText(),
                 "Tables");
+        this.softAssert.assertEquals(tablesPage.getPageTestDescriptionText(), "On this page you can" +
+                " test against data held in tables. The data is held in columns and rows and can be sorted in" +
+                " ascending/descending order by pressing the column headers.");
         // TODO - Continue to add rest of content tests
         this.softAssert.assertAll();
     }

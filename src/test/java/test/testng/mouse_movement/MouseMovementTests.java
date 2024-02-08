@@ -50,6 +50,11 @@ public class MouseMovementTests extends BaseTests {
         MouseMovementPage mouseMovementPage = this.homePage.clickMouseMovementPage();
         this.softAssert.assertEquals(mouseMovementPage.getPageTestTitleText(),
                 "Mouse Movement");
+        this.softAssert.assertEquals(mouseMovementPage.getPageTestDescriptionText(), "Use this webpage to" +
+                " practice your mouse movement automation skills. The rectangle on the left uses a mouse over and" +
+                " mouse out Jquery functions. When you move your mouse out of the grey zone or enter or exit the" +
+                " red zone, a counter increments. The rectangle on the right uses a mouse leave Jquery functions." +
+                " The counter only increments when leaving the grey rectangle and is not affected by the red zone.");
         // TODO - Continue to add rest of content tests
         this.softAssert.assertAll();
     }

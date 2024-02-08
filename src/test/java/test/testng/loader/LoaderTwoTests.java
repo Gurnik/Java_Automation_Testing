@@ -50,6 +50,8 @@ public class LoaderTwoTests extends BaseTests {
         LoaderTwoPage loaderTwoPage = this.homePage.clickLoaderTwoPage();
         this.softAssert.assertEquals(loaderTwoPage.getPageTestTitleText(),
                 "Loader Two");
+        this.softAssert.assertEquals(loaderTwoPage.getPageTestDescriptionText(), "Use this webpage to test" +
+                " a paragraph that appears after 8 seconds. This element is created as a new P element in the DOM.");
         // TODO - Continue to add rest of content tests
         this.softAssert.assertAll();
     }

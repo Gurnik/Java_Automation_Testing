@@ -49,6 +49,8 @@ public class DatePickerTests extends BaseTests {
     public void testDatePickerPageContent() {
         DatePickerPage datePickerPage = this.homePage.clickDatePickerPage();
         this.softAssert.assertEquals(datePickerPage.getPageTestTitleText(), "Date Picker");
+        this.softAssert.assertEquals(datePickerPage.getPageTestDescriptionText(), "On this page you can run" +
+                " various tests against calendars using date pickers, date range and time selection.");
         // TODO - Continue to add rest of content tests
         this.softAssert.assertAll();
     }

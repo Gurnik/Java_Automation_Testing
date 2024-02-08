@@ -2,6 +2,8 @@ package pages.page_object;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.locators.RelativeLocator;
 import utils.PageManager;
 import utils.WindowManager;
 
@@ -48,6 +50,11 @@ public abstract class BasePage extends PageManager {
 
     public String getPageTestTitleText() {
         return this.getWebElementText(this.basePageTestTitle);
+    }
+
+    public String getPageTestDescriptionText() {
+        WebElement aboveWebElement = this.getWebElement(this.basePageTestTitle);
+        return this.getWebDriver().findElement(RelativeLocator.with(By.tagName("p")).below(aboveWebElement)).getText();
     }
 
     public void clickToggle() {

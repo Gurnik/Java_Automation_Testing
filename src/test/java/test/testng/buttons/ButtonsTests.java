@@ -50,6 +50,8 @@ public class ButtonsTests extends BaseTests {
     public void testButtonPageContent() {
         ButtonsPage buttonsPage = this.homePage.clickButtonsPage();
         this.softAssert.assertEquals(buttonsPage.getPageTestTitleText(), "Testing Buttons");
+        this.softAssert.assertEquals(buttonsPage.getPageTestDescriptionText(), "Attempt to click the buttons" +
+                " using the instructions for each button below. There are various ways you can click buttons.");
         // TODO - Continue to add rest of content tests
         this.softAssert.assertAll();
     }

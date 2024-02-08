@@ -50,6 +50,10 @@ public class FileUploadTests extends BaseTests {
         FileUploadPage fileUploadPage = this.homePage.clickFileUploadPage();
         this.softAssert.assertEquals(fileUploadPage.getPageTestTitleText(),
                 "File Upload");
+        this.softAssert.assertEquals(fileUploadPage.getPageTestDescriptionText(), "You can upload a file" +
+                " using the below file upload feature. Press \"Choose file\", select a file locally and then press" +
+                " the Upload File button. Note, no file is actually uploaded to the server. The purpose of this page" +
+                " is to test the process steps to find and attach a file.");
         // TODO - Continue to add rest of content tests
         this.softAssert.assertAll();
     }

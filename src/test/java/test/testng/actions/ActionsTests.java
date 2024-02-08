@@ -28,7 +28,7 @@ public class ActionsTests extends BaseTests {
     }
 
     @Test(dataProviderClass = BaseData.class, dataProvider = "provideMenuListTitles")
-    public void testActionsPageMenuTitlesAreCorrectAndOrderedAlphabetically(String expected, int index) {
+    public void testActionsPageMenuTitlesAreCorrectAndOrdered(String expected, int index) {
         ActionsPage actionsPage = this.homePage.clickActionsPage();
         Assert.assertEquals(actionsPage.getMenuTitle(index), expected);
     }

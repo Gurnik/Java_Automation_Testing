@@ -5,12 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f97a0a9-82a3-40e6-96f8-fa6a35c3f835" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/home/HomeData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/page_object/AboutMePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/AboutMePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/page_object/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PageManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/page_object/BrowserTabsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/BrowserTabsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/page_object/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/WindowManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/WindowManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/accordion/AccordionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/accordion/AccordionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/actions/ActionsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/actions/ActionsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/browser_tabs/BrowserTabsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/browser_tabs/BrowserTabsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/buttons/ButtonsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/buttons/ButtonsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/calculator/CalculatorJSTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/calculator/CalculatorJSTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/contact_us/ContactUsFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/contact_us/ContactUsFormTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/date_picker/DatePickerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/date_picker/DatePickerTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/dropdown_checkbox_radio/DropdownCheckboxRadioTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/dropdown_checkbox_radio/DropdownCheckboxRadioTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/file_upload/FileUploadTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/file_upload/FileUploadTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/home/HomeTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/home/HomeTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/loader/LoaderTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/loader/LoaderTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/loader/LoaderTwoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/loader/LoaderTwoTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/login_portal/LoginPortalTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/login_portal/LoginPortalTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/mouse_movement/MouseMovementTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/mouse_movement/MouseMovementTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/predictive_search/PredictiveSearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/predictive_search/PredictiveSearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/tables/TablesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/tables/TablesTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,18 +69,18 @@
       <recent name="pages.page_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AboutMeTests.testAboutMePageContent">
-    <configuration name="AboutMeTests.testAboutMePageContent" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BrowserTabsTests.testOpenTab">
+    <configuration name="BrowserTabsTests.testBrowserTabsPageContent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.testng.about_me.*" />
+          <option name="PATTERN" value="test.testng.browser_tabs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.testng.about_me" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.about_me.AboutMeTests" />
-      <option name="METHOD_NAME" value="testAboutMePageContent" />
+      <option name="PACKAGE_NAME" value="test.testng.browser_tabs" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.browser_tabs.BrowserTabsTests" />
+      <option name="METHOD_NAME" value="testBrowserTabsPageContent" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -71,16 +88,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MouseMovementTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BrowserTabsTests.testOpenTab" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.testng.mouse_movement.*" />
+          <option name="PATTERN" value="test.testng.browser_tabs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.testng.mouse_movement" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.mouse_movement.MouseMovementTests" />
+      <option name="PACKAGE_NAME" value="test.testng.browser_tabs" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.browser_tabs.BrowserTabsTests" />
+      <option name="METHOD_NAME" value="testOpenTab" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testng.home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.testng.home" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.home.HomeTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -88,51 +123,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PopUpsAndAlertsTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeTests.testGoToWebDriverUniversityWebsite" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.testng.popus_and_alerts.*" />
+          <option name="PATTERN" value="test.testng.home.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.testng.popus_and_alerts" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.popus_and_alerts.PopUpsAndAlertsTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="test.testng.home" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.home.HomeTests" />
+      <option name="METHOD_NAME" value="testGoToWebDriverUniversityWebsite" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PredictiveSearchTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeTests.testHomePageContent" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.testng.predictive_search.*" />
+          <option name="PATTERN" value="test.testng.home.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.testng.predictive_search" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.predictive_search.PredictiveSearchTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TablesTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation_testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.testng.tables.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.testng.tables" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.tables.TablesTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="test.testng.home" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.home.HomeTests" />
+      <option name="METHOD_NAME" value="testHomePageContent" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AboutMeTests.testAboutMePageContent" />
-        <item itemvalue="TestNG.TablesTests" />
-        <item itemvalue="TestNG.PredictiveSearchTests" />
-        <item itemvalue="TestNG.PopUpsAndAlertsTests" />
-        <item itemvalue="TestNG.MouseMovementTests" />
+        <item itemvalue="TestNG.BrowserTabsTests.testOpenTab" />
+        <item itemvalue="TestNG.BrowserTabsTests.testBrowserTabsPageContent" />
+        <item itemvalue="TestNG.HomeTests.testGoToWebDriverUniversityWebsite" />
+        <item itemvalue="TestNG.HomeTests" />
+        <item itemvalue="TestNG.HomeTests.testHomePageContent" />
       </list>
     </recent_temporary>
   </component>

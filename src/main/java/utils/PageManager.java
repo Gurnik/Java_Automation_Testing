@@ -73,6 +73,18 @@ public abstract class PageManager {
         this.getWebElement(by).click();
     }
 
+    protected void clickJS(WebElement element) {
+        this.waitForVisibility(element);
+        JavascriptExecutor executor = (JavascriptExecutor)this.driver;
+        executor.executeScript("arguments[0].click();", element);
+    }
+    protected void clickJS(By by) {
+        this.waitForVisibility(by);
+        WebElement element = this.getWebElement(by);
+        JavascriptExecutor executor = (JavascriptExecutor)this.driver;
+        executor.executeScript("arguments[0].click();", element);
+    }
+
     protected void scrollToElementAndClick(WebElement element) {
         this.scrollToElement(element);
         this.click(element);

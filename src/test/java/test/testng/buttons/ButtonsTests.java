@@ -99,4 +99,24 @@ public class ButtonsTests extends BaseTests {
         }
 
     }
+
+    @Test(dataProviderClass = ButtonsData.class, dataProvider = "checkButtonClick")
+    public void testClickingOnButton(int number, boolean isButtonEnabled, String alertMessage) {
+        ButtonsPage buttonsPage = this.homePage.clickButtonsPage();
+        if(isButtonEnabled) {
+            Assert.assertTrue(buttonsPage.isButtonEnabled(number));
+            buttonsPage.clickOnButtonNumber(number);
+            Assert.assertEquals(buttonsPage.getAlertText(), alertMessage);
+            buttonsPage.acceptAlert();
+        } else {
+            Assert.assertFalse(buttonsPage.isButtonEnabled(number));
+            buttonsPage.enableButtonFour();
+            Assert.assertTrue(buttonsPage.isButtonEnabled(number));
+            buttonsPage.clickOnButtonNumber(number);
+            Assert.assertEquals(buttonsPage.getAlertText(), alertMessage);
+            buttonsPage.acceptAlert();
+            buttonsPage.disableButtonFour();
+            Assert.assertFalse(buttonsPage.isButtonEnabled(number));
+        }
+    }
 }

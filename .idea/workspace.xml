@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f97a0a9-82a3-40e6-96f8-fa6a35c3f835" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/buttons/ButtonsData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/page_object/ButtonsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/ButtonsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/PageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PageManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/buttons/ButtonsData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/buttons/ButtonsData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/buttons/ButtonsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/buttons/ButtonsTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,44 +51,8 @@
       <recent name="pages.page_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ButtonsTests.testButtonIsEnabled">
-    <configuration name="BrowserTabsTests.testBrowserTabsPageContent" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation_testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.testng.browser_tabs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.testng.browser_tabs" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.browser_tabs.BrowserTabsTests" />
-      <option name="METHOD_NAME" value="testBrowserTabsPageContent" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BrowserTabsTests.testOpenTab" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation_testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.testng.browser_tabs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.testng.browser_tabs" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.browser_tabs.BrowserTabsTests" />
-      <option name="METHOD_NAME" value="testOpenTab" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ButtonsTests.testButtonIsEnabled" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ButtonsTests">
+    <configuration name="ButtonsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_testing" />
       <extension name="coverage">
         <pattern>
@@ -98,15 +62,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.testng.buttons" />
       <option name="MAIN_CLASS_NAME" value="test.testng.buttons.ButtonsTests" />
-      <option name="METHOD_NAME" value="testButtonIsEnabled" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ButtonsTests.testButtonPageContent" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ButtonsTests.testClickingOnButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_testing" />
       <extension name="coverage">
         <pattern>
@@ -116,7 +79,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.testng.buttons" />
       <option name="MAIN_CLASS_NAME" value="test.testng.buttons.ButtonsTests" />
-      <option name="METHOD_NAME" value="testButtonPageContent" />
+      <option name="METHOD_NAME" value="testClickingOnButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,17 +87,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomeTests.testGoToWebDriverUniversityWebsite" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ButtonsTests.testClickingOnButtonFour" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.testng.home.*" />
+          <option name="PATTERN" value="test.testng.buttons.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.testng.home" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.home.HomeTests" />
-      <option name="METHOD_NAME" value="testGoToWebDriverUniversityWebsite" />
+      <option name="PACKAGE_NAME" value="test.testng.buttons" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.buttons.ButtonsTests" />
+      <option name="METHOD_NAME" value="testClickingOnButtonFour" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ButtonsTests.testClickingOnButtonThree" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testng.buttons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.testng.buttons" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.buttons.ButtonsTests" />
+      <option name="METHOD_NAME" value="testClickingOnButtonThree" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ButtonsTests.testClickingOnButtonTwo" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testng.buttons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.testng.buttons" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.buttons.ButtonsTests" />
+      <option name="METHOD_NAME" value="testClickingOnButtonTwo" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ButtonsTests.testButtonIsEnabled" />
-        <item itemvalue="TestNG.ButtonsTests.testButtonPageContent" />
-        <item itemvalue="TestNG.BrowserTabsTests.testOpenTab" />
-        <item itemvalue="TestNG.BrowserTabsTests.testBrowserTabsPageContent" />
-        <item itemvalue="TestNG.HomeTests.testGoToWebDriverUniversityWebsite" />
+        <item itemvalue="TestNG.ButtonsTests" />
+        <item itemvalue="TestNG.ButtonsTests.testClickingOnButton" />
+        <item itemvalue="TestNG.ButtonsTests.testClickingOnButtonFour" />
+        <item itemvalue="TestNG.ButtonsTests.testClickingOnButtonThree" />
+        <item itemvalue="TestNG.ButtonsTests.testClickingOnButtonTwo" />
       </list>
     </recent_temporary>
   </component>

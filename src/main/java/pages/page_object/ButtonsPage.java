@@ -1,7 +1,9 @@
 package pages.page_object;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class ButtonsPage extends BasePage {
 
@@ -17,6 +19,7 @@ public class ButtonsPage extends BasePage {
     private final By buttonTwoLocator = By.cssSelector("button#btn_two");
     private final By buttonThreeLocator = By.id("btn_three");
     private final By buttonFourLocator = By.xpath("//div[@class='row'][2]//button");
+    // private final By buttonFourLocator = By.xpath(".//button[text()=='Button Four'");
 
     public ButtonsPage(WebDriver driver) {
         super(driver);
@@ -40,10 +43,11 @@ public class ButtonsPage extends BasePage {
                 this.click(this.buttonOneLocator);
                 break;
             case 2:
-                this.click(this.buttonTwoLocator);
+                this.clickJS(this.buttonTwoLocator);
                 break;
             case 3:
-                this.click(this.buttonThreeLocator);
+                Actions actions = new Actions(this.getWebDriver());
+                actions.moveToElement(this.getWebElement(this.buttonThreeLocator)).click().perform();
                 break;
             case 4:
                 this.click(this.buttonFourLocator);
@@ -64,5 +68,23 @@ public class ButtonsPage extends BasePage {
         }
 
         return false;
+    }
+
+    public String getAlertText() {
+        return this.getWebDriver().switchTo().alert().getText();
+    }
+
+    public void acceptAlert() {
+        this.getWebDriver().switchTo().alert().accept();
+    }
+
+    public void enableButtonFour() {
+        JavascriptExecutor js = (JavascriptExecutor)this.getWebDriver();
+        js.executeScript("document.getElementById('btn_four').disabled=false;");
+    }
+
+    public void disableButtonFour() {
+        JavascriptExecutor js = (JavascriptExecutor)this.getWebDriver();
+        js.executeScript("document.getElementById('btn_four').disabled=true;");
     }
 }

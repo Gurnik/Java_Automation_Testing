@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1f97a0a9-82a3-40e6-96f8-fa6a35c3f835" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/page_object/ButtonsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/ButtonsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PageManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/buttons/ButtonsData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/buttons/ButtonsData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/buttons/ButtonsTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/buttons/ButtonsTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/page_object/AccordionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/AccordionPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/page_object/BrowserTabsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/BrowserTabsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/accordion/AccordionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/accordion/AccordionTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,78 @@
       <recent name="pages.page_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ButtonsTests">
+  <component name="RunManager" selected="TestNG.AccordionTests">
+    <configuration name="AccordionTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testng.accordion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.testng.accordion" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.accordion.AccordionTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccordionTests.testSelectAndDisSelectAccordions" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testng.accordion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.testng.accordion" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.accordion.AccordionTests" />
+      <option name="METHOD_NAME" value="testSelectAndDisSelectAccordions" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccordionTests.testSelectFirstAccordion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testng.accordion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.testng.accordion" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.accordion.AccordionTests" />
+      <option name="METHOD_NAME" value="testSelectFirstAccordion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccordionTests.testSelectSecondAccordion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="automation_testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.testng.accordion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.testng.accordion" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.accordion.AccordionTests" />
+      <option name="METHOD_NAME" value="testSelectSecondAccordion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ButtonsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_testing" />
       <extension name="coverage">
@@ -69,85 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ButtonsTests.testClickingOnButton" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation_testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.testng.buttons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.testng.buttons" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.buttons.ButtonsTests" />
-      <option name="METHOD_NAME" value="testClickingOnButton" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ButtonsTests.testClickingOnButtonFour" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation_testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.testng.buttons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.testng.buttons" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.buttons.ButtonsTests" />
-      <option name="METHOD_NAME" value="testClickingOnButtonFour" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ButtonsTests.testClickingOnButtonThree" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation_testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.testng.buttons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.testng.buttons" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.buttons.ButtonsTests" />
-      <option name="METHOD_NAME" value="testClickingOnButtonThree" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ButtonsTests.testClickingOnButtonTwo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="automation_testing" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.testng.buttons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.testng.buttons" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.buttons.ButtonsTests" />
-      <option name="METHOD_NAME" value="testClickingOnButtonTwo" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AccordionTests" />
+        <item itemvalue="TestNG.AccordionTests.testSelectAndDisSelectAccordions" />
+        <item itemvalue="TestNG.AccordionTests.testSelectSecondAccordion" />
+        <item itemvalue="TestNG.AccordionTests.testSelectFirstAccordion" />
         <item itemvalue="TestNG.ButtonsTests" />
-        <item itemvalue="TestNG.ButtonsTests.testClickingOnButton" />
-        <item itemvalue="TestNG.ButtonsTests.testClickingOnButtonFour" />
-        <item itemvalue="TestNG.ButtonsTests.testClickingOnButtonThree" />
-        <item itemvalue="TestNG.ButtonsTests.testClickingOnButtonTwo" />
       </list>
     </recent_temporary>
   </component>

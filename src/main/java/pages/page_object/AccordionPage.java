@@ -2,6 +2,7 @@ package pages.page_object;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
 public class AccordionPage extends BasePage {
 
@@ -16,18 +17,15 @@ public class AccordionPage extends BasePage {
         int size = this.getWebDriver().findElements(this.accordionHeaderLocators).size();
 
         if(index >= 0 && index < size) {
+            boolean isAccordionSelected = this.isAccordionSelected(index);
             this.getWebDriver().findElements(this.accordionHeaderLocators).get(index).click();
+            WebElement element = (this.getWebDriver().findElements(this.accordionContentLocators).get(index));
+            if(isAccordionSelected) {
+                this.waitForInVisibility(element);
+            } else {
+                this.waitForVisibility(element);
+            }
         }
-    }
-
-    public String getAccordionHeader(int index) {
-        int size = this.getWebDriver().findElements(this.accordionHeaderLocators).size();
-
-        if(index >= 0 && index < size) {
-            return this.getWebDriver().findElements(this.accordionHeaderLocators).get(index).getText();
-        }
-
-        return "";
     }
 
     public String getAccordionContent(int index) {
@@ -45,14 +43,10 @@ public class AccordionPage extends BasePage {
     }
 
     public boolean isAccordionSelected(int index) {
-        int size = this.getWebDriver().findElements(this.accordionContentLocators).size();
+        int size = this.getWebDriver().findElements(this.accordionHeaderLocators).size();
 
         if(index >= 0 && index < size) {
-            if(this.getWebDriver().findElements(this.accordionContentLocators).get(index).isSelected()) {
-                return true;
-            } else {
-                return false;
-            }
+            return this.getWebDriver().findElements(this.accordionContentLocators).get(index).isDisplayed();
         }
 
         return false;

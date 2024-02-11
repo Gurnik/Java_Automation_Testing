@@ -1,12 +1,13 @@
 package test.testng.contact_us;
 
 import org.junit.jupiter.api.Tag;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.page_object.ContactUsFormTestPage;
 import pages.page_object.SubmittedContactUsFormPage;
 import test.testng.base.BaseData;
 import test.testng.base.BaseTests;
+
+import static org.testng.Assert.assertEquals;
 
 public class ContactUsFormTests extends BaseTests {
 
@@ -19,7 +20,7 @@ public class ContactUsFormTests extends BaseTests {
     @Test
     public void testContactUsFormTestPageMenuSize() {
         ContactUsFormTestPage contactUsFormPage = this.homePage.clickContactUsFormTestPage();
-        Assert.assertEquals(contactUsFormPage.getMenuSize(), 21);
+        assertEquals(contactUsFormPage.getMenuSize(), 21);
     }
 
     @Test
@@ -31,19 +32,19 @@ public class ContactUsFormTests extends BaseTests {
     @Test(dataProviderClass = BaseData.class, dataProvider = "provideMenuListTitles")
     public void testContactUsFormTestPageMenuTitlesAreCorrectAndOrderedAlphabetically(String expected, int index) {
         ContactUsFormTestPage contactUsFormPage = this.homePage.clickContactUsFormTestPage();
-        Assert.assertEquals(contactUsFormPage.getMenuTitle(index), expected);
+        assertEquals(contactUsFormPage.getMenuTitle(index), expected);
     }
 
     @Test
     public void testContactUsFormTestPageTitle() {
         this.homePage.clickContactUsFormTestPage();
-        Assert.assertEquals(this.getWindowManager().getPageTitle(), "Contact Form");
+        assertEquals(this.getWindowManager().getPageTitle(), "Contact Form");
     }
 
     @Test
     public void testContactUsFormTestPageUrl() {
         this.homePage.clickContactUsFormTestPage();
-        Assert.assertEquals(this.getWindowManager().getPageUrl(),
+        assertEquals(this.getWindowManager().getPageUrl(),
                 "https://automationtesting.co.uk/contactForm.html");
     }
 
@@ -86,13 +87,13 @@ public class ContactUsFormTests extends BaseTests {
     public void testResetButton() {
         ContactUsFormTestPage contactUsFormPage = this.homePage.clickContactUsFormTestPage();
 
-        this.softAssert.assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.FIRST_NAME),
+        assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.FIRST_NAME),
                 "");
-        this.softAssert.assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.LAST_NAME),
+        assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.LAST_NAME),
                 "");
-        this.softAssert.assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.EMAIL_ADDRESS),
+        assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.EMAIL_ADDRESS),
                 "");
-        this.softAssert.assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.COMMENTS),
+        assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.COMMENTS),
                 "");
 
         contactUsFormPage.sendText(ContactUsFormTestPage.ContactForm.FIRST_NAME, "Tom");
@@ -100,26 +101,25 @@ public class ContactUsFormTests extends BaseTests {
         contactUsFormPage.sendText(ContactUsFormTestPage.ContactForm.EMAIL_ADDRESS, "tom.cruise@gmail.com");
         contactUsFormPage.sendText(ContactUsFormTestPage.ContactForm.COMMENTS, "I am Tom Cruise!");
 
-        this.softAssert.assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.FIRST_NAME),
+        assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.FIRST_NAME),
                 "Tom");
-        this.softAssert.assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.LAST_NAME),
+        assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.LAST_NAME),
                 "Cruise");
-        this.softAssert.assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.EMAIL_ADDRESS),
+        assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.EMAIL_ADDRESS),
                 "tom.cruise@gmail.com");
-        this.softAssert.assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.COMMENTS),
+        assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.COMMENTS),
                 "I am Tom Cruise!");
 
         contactUsFormPage.clickReset();
 
-        this.softAssert.assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.FIRST_NAME),
+        assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.FIRST_NAME),
                 "");
-        this.softAssert.assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.LAST_NAME),
+        assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.LAST_NAME),
                 "");
-        this.softAssert.assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.EMAIL_ADDRESS),
+        assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.EMAIL_ADDRESS),
                 "");
-        this.softAssert.assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.COMMENTS),
+        assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.COMMENTS),
                 "");
-        this.softAssert.assertAll();
     }
 
     @Test
@@ -131,30 +131,28 @@ public class ContactUsFormTests extends BaseTests {
         contactUsFormPage.sendText(ContactUsFormTestPage.ContactForm.EMAIL_ADDRESS, "tom.cruise@gmail.com");
         contactUsFormPage.sendText(ContactUsFormTestPage.ContactForm.COMMENTS, "I am Tom Cruise!");
 
-        this.softAssert.assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.FIRST_NAME),
+        assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.FIRST_NAME),
                 "Tom");
-        this.softAssert.assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.LAST_NAME),
+        assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.LAST_NAME),
                 "Cruise");
-        this.softAssert.assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.EMAIL_ADDRESS),
+        assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.EMAIL_ADDRESS),
                 "tom.cruise@gmail.com");
-        this.softAssert.assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.COMMENTS),
+        assertEquals(contactUsFormPage.getText(ContactUsFormTestPage.ContactForm.COMMENTS),
                 "I am Tom Cruise!");
 
         SubmittedContactUsFormPage submittedContactUsFormPage = contactUsFormPage.clickSubmit();
-        this.softAssert.assertEquals(submittedContactUsFormPage.getSuccessMessageHeader(),
+        assertEquals(submittedContactUsFormPage.getSuccessMessageHeader(),
                 "Thank you for your mail!");
-        this.softAssert.assertEquals(submittedContactUsFormPage.getSuccessMessage(),
+        assertEquals(submittedContactUsFormPage.getSuccessMessage(),
                 "We will be in contact shortly with a response. We aim to reply within 48 hours but our" +
                         " responses can sometimes be delayed during times of peak demand.");
 
-        this.softAssert.assertEquals(this.getWindowManager().getPageUrl(),
+        assertEquals(this.getWindowManager().getPageUrl(),
                 "https://automationtesting.co.uk/contact-form-thank-you.html");
-
-        this.softAssert.assertAll();
     }
 
     @Tag("Bug")
-    @Test(dataProviderClass = ContactUsFormData.class, dataProvider = "checkForWrongFilledContactForm", priority = 1)
+    @Test(dataProviderClass = ContactUsFormData.class, dataProvider = "checkForWrongFilledContactForm")
     public void testFailedFillContactUsForm(String firstName, String lastName, String email, String comment,
                                             String expectedMessage) {
         ContactUsFormTestPage contactUsFormPage = this.homePage.clickContactUsFormTestPage();
@@ -166,16 +164,10 @@ public class ContactUsFormTests extends BaseTests {
 
         SubmittedContactUsFormPage submittedContactUsFormPage = contactUsFormPage.clickSubmit();
 
-        this.softAssert.assertEquals(submittedContactUsFormPage.getErrorMessage(),
+        assertEquals(submittedContactUsFormPage.getErrorMessage(),
                 expectedMessage);
 
-        this.softAssert.assertEquals(this.getWindowManager().getPageUrl(),
+        assertEquals(this.getWindowManager().getPageUrl(),
                 "https://automationtesting.co.uk/contact_us.php");
-
-        if(this.getWindowManager().getPageTitle().equals("https://automationtesting.co.uk/contact_us.php") == false) {
-            this.getWindowManager().goBack();
-        }
-
-        this.softAssert.assertAll();
     }
 }

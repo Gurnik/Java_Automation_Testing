@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f97a0a9-82a3-40e6-96f8-fa6a35c3f835" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/SubmittedContactUsFormPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/contact_us/ContactUsFormData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/page_object/ContactUsFormTestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/ContactUsFormTestPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PageManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/contact_us/ContactUsFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/contact_us/ContactUsFormTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,8 +175,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/test/testng/contact_us/ContactUsFormTests.java</url>
-          <line>121</line>
-          <option name="timeStamp" value="13" />
+          <line>87</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

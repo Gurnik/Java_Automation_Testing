@@ -5,10 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f97a0a9-82a3-40e6-96f8-fa6a35c3f835" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/SubmittedContactUsFormPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/testng/contact_us/ContactUsFormData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/page_object/AccordionPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/AccordionPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/page_object/BrowserTabsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/BrowserTabsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/accordion/AccordionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/accordion/AccordionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/page_object/ContactUsFormTestPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/page_object/ContactUsFormTestPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/PageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/PageManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/testng/contact_us/ContactUsFormTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/testng/contact_us/ContactUsFormTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,17 +52,17 @@
       <recent name="pages.page_factory" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AccordionTests">
-    <configuration name="AccordionTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ContactUsFormTests">
+    <configuration name="ContactUsFormTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.testng.accordion.*" />
+          <option name="PATTERN" value="test.testng.contact_us.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.testng.accordion" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.accordion.AccordionTests" />
+      <option name="PACKAGE_NAME" value="test.testng.contact_us" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.contact_us.ContactUsFormTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -68,17 +70,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccordionTests.testSelectAndDisSelectAccordions" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactUsFormTests.testFailedFillContactUsForm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.testng.accordion.*" />
+          <option name="PATTERN" value="test.testng.contact_us.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.testng.accordion" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.accordion.AccordionTests" />
-      <option name="METHOD_NAME" value="testSelectAndDisSelectAccordions" />
+      <option name="PACKAGE_NAME" value="test.testng.contact_us" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.contact_us.ContactUsFormTests" />
+      <option name="METHOD_NAME" value="testFailedFillContactUsForm" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -86,17 +88,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccordionTests.testSelectFirstAccordion" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactUsFormTests.testFailedFillContactUsForm1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.testng.accordion.*" />
+          <option name="PATTERN" value="test.testng.contact_us.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.testng.accordion" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.accordion.AccordionTests" />
-      <option name="METHOD_NAME" value="testSelectFirstAccordion" />
+      <option name="PACKAGE_NAME" value="test.testng.contact_us" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.contact_us.ContactUsFormTests" />
+      <option name="METHOD_NAME" value="testFailedFillContactUsForm1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -104,17 +106,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccordionTests.testSelectSecondAccordion" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactUsFormTests.testResetButton" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.testng.accordion.*" />
+          <option name="PATTERN" value="test.testng.contact_us.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.testng.accordion" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.accordion.AccordionTests" />
-      <option name="METHOD_NAME" value="testSelectSecondAccordion" />
+      <option name="PACKAGE_NAME" value="test.testng.contact_us" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.contact_us.ContactUsFormTests" />
+      <option name="METHOD_NAME" value="testResetButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -122,17 +124,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ButtonsTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ContactUsFormTests.testSuccessfulFillContactUsForm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="automation_testing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.testng.buttons.*" />
+          <option name="PATTERN" value="test.testng.contact_us.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.testng.buttons" />
-      <option name="MAIN_CLASS_NAME" value="test.testng.buttons.ButtonsTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="test.testng.contact_us" />
+      <option name="MAIN_CLASS_NAME" value="test.testng.contact_us.ContactUsFormTests" />
+      <option name="METHOD_NAME" value="testSuccessfulFillContactUsForm" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AccordionTests" />
-        <item itemvalue="TestNG.AccordionTests.testSelectAndDisSelectAccordions" />
-        <item itemvalue="TestNG.AccordionTests.testSelectSecondAccordion" />
-        <item itemvalue="TestNG.AccordionTests.testSelectFirstAccordion" />
-        <item itemvalue="TestNG.ButtonsTests" />
+        <item itemvalue="TestNG.ContactUsFormTests" />
+        <item itemvalue="TestNG.ContactUsFormTests.testFailedFillContactUsForm" />
+        <item itemvalue="TestNG.ContactUsFormTests.testFailedFillContactUsForm1" />
+        <item itemvalue="TestNG.ContactUsFormTests.testSuccessfulFillContactUsForm" />
+        <item itemvalue="TestNG.ContactUsFormTests.testResetButton" />
       </list>
     </recent_temporary>
   </component>
@@ -172,6 +175,15 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/test/testng/contact_us/ContactUsFormTests.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="TestNG">
         <watch expression="this.homePage.getMenuSize()" />

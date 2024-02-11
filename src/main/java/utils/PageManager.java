@@ -115,6 +115,28 @@ public abstract class PageManager {
         return getWebElement(by).getText();
     }
 
+    protected String getWebElementAttributeValue(WebElement element, String attribute) {
+        this.waitForVisibility(element);
+        return element.getAttribute(attribute);
+    }
+
+    protected String getWebElementAttributeValue(By by, String attribute) {
+        this.waitForVisibility(this.getWebElement(by));
+        return this.getWebElement(by).getAttribute(attribute);
+    }
+
+    protected void sendText(WebElement element, String text) {
+        this.scrollToElement(element);
+        this.waitForVisibility(element);
+        element.sendKeys(text);
+    }
+
+    protected void sendText(By by, String text) {
+        this.scrollToElement(by);
+        this.waitForVisibility(by);
+        this.getWebElement(by).sendKeys(text);
+    }
+
     protected boolean isEnabled(By by) {
         this.waitForVisibility(by);
         return this.getWebElement(by).isEnabled();
